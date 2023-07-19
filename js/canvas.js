@@ -1,4 +1,8 @@
+let miCanva = document.getElementById('miCanvas');
+let ctx = miCanva.getContext('2d');
+
 window.addEventListener('DOMContentLoaded', () =>{
+
 
   console.log(ctx)
 
